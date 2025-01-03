@@ -4,7 +4,8 @@ import counterReducer from "./features/counter/counterSlice";
 export const store = configureStore({
     reducer: {
         counter: counterReducer,
-    }
+    },
+    // middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger)
 });
 
 export type RootState = ReturnType<typeof store.getState>;
