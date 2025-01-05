@@ -17,12 +17,20 @@ const initialState: InitialState = {
             priority: "High",
         },
         {
-            id: "asdfasdfadf",
+            id: "asdfasdfadffd",
             title: "Create github repo",
             description: "Create Home page, and routing",
             duDate: "2025-11",
             isCompleted: false,
-            priority: "High",
+            priority: "Medium",
+        },
+        {
+            id: "asdfasdfadfasdf",
+            title: "Create github repo",
+            description: "Create Home page, and routing",
+            duDate: "2025-11",
+            isCompleted: false,
+            priority: "Low",
         },
     ]
 }
